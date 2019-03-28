@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Demo.vbproj">
+      <Assembly Name="Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="93" />
+          <Metric Name="CyclomaticComplexity" Value="25" />
+          <Metric Name="ClassCoupling" Value="25" />
+          <Metric Name="DepthOfInheritance" Value="3" />
+          <Metric Name="LinesOfCode" Value="111" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Demo">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="91" />
+              <Metric Name="CyclomaticComplexity" Value="4" />
+              <Metric Name="ClassCoupling" Value="7" />
+              <Metric Name="DepthOfInheritance" Value="3" />
+              <Metric Name="LinesOfCode" Value="0" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Class1">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="LinesOfCode" Value="3" />
+                </Metrics>
+                <Members>
+                  <Property Name="Property Class1.Name As String" File="D:\Repos\Demo\Demo\Class1.vb" Line="2">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="LinesOfCode" Value="1" />
+                    </Metrics>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="DemoSettings">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="82" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="7" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="LinesOfCode" Value="28" />
+                </Metrics>
+                <Members>
+                  <Field Name="DemoSettings.defaultInstance As DemoSettings" File="D:\Repos\Demo\Demo\DemoSettings.Designer.vb" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="LinesOfCode" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="Property DemoSettings.Default As DemoSettings" File="D:\Repos\Demo\Demo\DemoSettings.Designer.vb" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="LinesOfCode" Value="6" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Property Get DemoSettings.Default() As DemoSettings" File="D:\Repos\Demo\Demo\DemoSettings.Designer.vb" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="LinesOfCode" Value="3" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="Property DemoSettings.Setting As String" File="D:\Repos\Demo\Demo\DemoSettings.Designer.vb" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="LinesOfCode" Value="12" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Property Get DemoSettings.Setting() As String" File="D:\Repos\Demo\Demo\DemoSettings.Designer.vb" Line="33">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="LinesOfCode" Value="3" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="Property Set DemoSettings.Setting(Value As String)" File="D:\Repos\Demo\Demo\DemoSettings.Designer.vb" Line="36">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="LinesOfCode" Value="3" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Demo.My">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="97" />
+              <Metric Name="CyclomaticComplexity" Value="17" />
+              <Metric Name="ClassCoupling" Value="20" />
+              <Metric Name="DepthOfInheritance" Value="3" />
+              <Metric Name="LinesOfCode" Value="61" />
+            </Metrics>
+            <Types>
+              <NamedType Name="MyApplication">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="LinesOfCode" Value="0" />
+                </Metrics>
+              </NamedType>
+              <NamedType Name="MyComputer">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="LinesOfCode" Value="0" />
+                </Metrics>
+                <Members>
+                  <Method Name="Sub MyComputer.New()" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="MyProject">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="8" />
+                  <Metric Name="DepthOfInheritance" Value="0" />
+                  <Metric Name="LinesOfCode" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="Property MyProject.Computer As MyComputer" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Property Get MyProject.Computer() As MyComputer" File="UNKNOWN" Line="1">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="LinesOfCode" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="MyProject.m_ComputerObjectProvider As ThreadSafeObjectProvider(Of MyComputer)" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="Property MyProject.Application As MyApplication" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Property Get MyProject.Application() As MyApplication" File="UNKNOWN" Line="1">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="LinesOfCode" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="MyProject.m_AppObjectProvider As ThreadSafeObjectProvider(Of MyApplication)" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="Property MyProject.User As User" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Property Get MyProject.User() As User" File="UNKNOWN" Line="1">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="LinesOfCode" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="MyProject.m_UserObjectProvider As ThreadSafeObjectProvider(Of User)" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="Property MyProject.WebServices As MyWebServices" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Property Get MyProject.WebServices() As MyWebServices" File="UNKNOWN" Line="1">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="LinesOfCode" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="MyProject.m_MyWebServicesObjectProvider As ThreadSafeObjectProvider(Of MyWebServices)" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="MyWebServices">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="7" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="LinesOfCode" Value="0" />
+                </Metrics>
+                <Members>
+                  <Method Name="Function MyWebServices.Equals(o As Object) As Boolean" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Function MyWebServices.GetHashCode() As Integer" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Function MyWebServices.GetType() As Type" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Function MyWebServices.ToString() As String" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Function MyWebServices.Create__Instance__(Of T)(instance As T) As T" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Sub MyWebServices.Dispose__Instance__(Of T)(ByRef instance As T)" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Sub MyWebServices.New()" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ThreadSafeObjectProvider(Of T)">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="LinesOfCode" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="Property ThreadSafeObjectProvider(Of T).GetInstance As T" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Property Get ThreadSafeObjectProvider(Of T).GetInstance() As T" File="UNKNOWN" Line="1">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="LinesOfCode" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="Sub ThreadSafeObjectProvider(Of T).New()" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="ThreadSafeObjectProvider(Of T).m_Context As ContextValue(Of T)" File="UNKNOWN" Line="1">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="LinesOfCode" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="MySettings">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="79" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="6" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="LinesOfCode" Value="41" />
+                </Metrics>
+                <Members>
+                  <Field Name="MySettings.defaultInstance As MySettings" File="D:\Repos\Demo\Demo\My Project\Settings.Designer.vb" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="LinesOfCode" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="Property MySettings.Default As MySettings" File="D:\Repos\Demo\Demo\My Project\Settings.Designer.vb" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="LinesOfCode" Value="32" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Property Get MySettings.Default() As MySettings" File="D:\Repos\Demo\Demo\My Project\Settings.Designer.vb" Line="41">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="LinesOfCode" Value="14" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="MySettingsProperty">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="0" />
+                  <Metric Name="LinesOfCode" Value="13" />
+                </Metrics>
+                <Members>
+                  <Property Name="Property MySettingsProperty.Settings As MySettings" File="D:\Repos\Demo\Demo\My Project\Settings.Designer.vb" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="LinesOfCode" Value="7" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Property Get MySettingsProperty.Settings() As MySettings" File="D:\Repos\Demo\Demo\My Project\Settings.Designer.vb" Line="68">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="LinesOfCode" Value="3" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Demo.My.Resources">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="77" />
+              <Metric Name="CyclomaticComplexity" Value="4" />
+              <Metric Name="ClassCoupling" Value="10" />
+              <Metric Name="DepthOfInheritance" Value="0" />
+              <Metric Name="LinesOfCode" Value="50" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Resources">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="77" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="10" />
+                  <Metric Name="DepthOfInheritance" Value="0" />
+                  <Metric Name="LinesOfCode" Value="46" />
+                </Metrics>
+                <Members>
+                  <Field Name="Resources.resourceMan As ResourceManager" File="D:\Repos\Demo\Demo\My Project\Resources.Designer.vb" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="LinesOfCode" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Resources.resourceCulture As CultureInfo" File="D:\Repos\Demo\Demo\My Project\Resources.Designer.vb" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="LinesOfCode" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="Property Resources.ResourceManager As ResourceManager" File="D:\Repos\Demo\Demo\My Project\Resources.Designer.vb" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="LinesOfCode" Value="14" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Property Get Resources.ResourceManager() As ResourceManager" File="D:\Repos\Demo\Demo\My Project\Resources.Designer.vb" Line="39">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="LinesOfCode" Value="7" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="Property Resources.Culture As CultureInfo" File="D:\Repos\Demo\Demo\My Project\Resources.Designer.vb" Line="53">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="LinesOfCode" Value="14" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Property Get Resources.Culture() As CultureInfo" File="D:\Repos\Demo\Demo\My Project\Resources.Designer.vb" Line="54">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="LinesOfCode" Value="3" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="Property Set Resources.Culture(value As CultureInfo)" File="D:\Repos\Demo\Demo\My Project\Resources.Designer.vb" Line="57">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="97" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="LinesOfCode" Value="3" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>
